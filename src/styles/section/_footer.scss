@@ -1,0 +1,44 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+.arrow{
+    width: 10px;
+    height: 10px;
+    border-bottom: none;
+    border-left: none;
+    border-right: 2px solid #fff;
+    border-top: 2px solid #fff;
+    transform: rotate(45deg);
+    margin-right: 10px;
+    &:before{
+        content: "";
+        display: block;
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        border-top: 2px solid #fff;
+        transform: rotate(-45deg);
+        top:28%;
+        
+    }
+}
+
+.footer__prize, .footer__part{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    
+}

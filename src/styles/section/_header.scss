@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+
+.header__login{
+    display: flex;
+    align-items: center;
+}
+
+.header__enter{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+
+.header__enter-pic{
+    fill: #fff;
+}
+
+.header__login{
+    background: no-repeat;
+    border: none;
+    cursor: pointer;
+}

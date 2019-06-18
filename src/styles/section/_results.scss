@@ -1,0 +1,53 @@
+.results__list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding-bottom: 20%;
+}
+
+.results__item{
+    display: flex;
+    align-items: center;
+    width: 45%;
+    background: rgba(100, 116, 255, 0.43);
+    opacity: 0.6;
+    border-radius: 6px;
+    justify-content: space-around;
+}
+
+.results__desc{
+    width: 60%;
+    text-align: left;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+
+}
+
+.results__quantity{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 7.5rem;
+    color: #71FF1B;
+    line-height: 1;
+}
+
+.results__quantity_big{
+    font-size: 7.5rem;
+}
+
+.results__quantity_small{
+    font-size: 5rem;
+}
+
+
+.results__month{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5rem;
+    color: #71FF1B;
+}

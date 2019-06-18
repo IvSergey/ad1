@@ -1,0 +1,81 @@
+.rules{
+    background: linear-gradient(49.83deg, #1B0035 8.94%, #0B239F 89.08%);
+    margin-top: -18.8%;
+}
+
+.rules__header{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15%;
+    align-items: center;
+}
+
+.rules__title{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.25rem;
+    color: #FFFFFF;
+}
+
+.rules__subtitle, .rules__question{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 6rem;
+    color: #71FF1B;
+    margin-bottom: 0;
+}
+
+.rules__question{
+    color: #fff;
+}
+
+
+
+.rules__desc{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.rules__list{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rules__item{
+    display: flex;
+    width: 30%;
+    background: rgba(100, 116, 255, 0.43);
+    opacity: 0.6;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rules__icon{
+    padding-top: 15px;
+}
+
+.rules__icon_slim{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: -45px;
+
+}
+
+.rules__name{
+    margin-left: 15px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #71FF1B;
+
+}

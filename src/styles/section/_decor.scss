@@ -1,0 +1,53 @@
+.decor__img{
+    position: absolute;
+    width: 100px;
+}
+
+.decor__img_burger{
+    left: 38%;
+    top: 12%;
+    @include tablets() {
+        left: 43%;
+        width: 10%;
+       }
+}
+
+.decor__img_cake{
+    bottom: 5%;
+    left: 5%;
+    @include laptops() {
+        bottom: 25%;
+       }
+    @include tablets() {
+        bottom: 50%;
+        left: 5%;
+        width: 10%;
+       }
+}
+
+.decor__img_pizza{
+    top: 100%;
+    left: 45%;
+    @include laptops() {
+        top: 65%;
+        left: 47%;
+       }
+    @include tablets() {
+        top: 40%;
+        left: 40%;
+        width: 10%;
+       }
+}
+
+.decor__img_fries{
+    right: 10%;
+    bottom: 10%;
+    @include laptops() {
+        bottom: 38%;
+       }
+    @include tablets() {
+        right: 10%;
+        bottom: 46%;
+        width: 10%;
+       }
+}

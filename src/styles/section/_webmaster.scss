@@ -1,0 +1,30 @@
+.webmaster{
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    background: radial-gradient(42.08px at 50% 67.13%, #6039FF 0%, #4522D1 100%);
+    border-radius: 50%;
+    right: 7%;
+    top: 13%;
+    @include laptops() {
+        width: 80px;
+        height:80px;
+       }
+    @include tablets() {
+        width: 60px;
+        height:60px;
+       }
+
+}
+
+.webmaster__text{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.875rem;
+    text-align: center;
+    color: #7FF0FF;
+    transform: rotate(-15deg);
+    padding-top: 28%;
+    padding-right: 8%;
+}

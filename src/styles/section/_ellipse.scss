@@ -1,0 +1,40 @@
+.ellipse1{
+    transform: rotate(-10deg);
+    right: -8%;
+    top: 1%;
+    border-radius: 50%;
+    // transform: rotate(-16deg);
+    position: absolute;
+    width: 700px;
+    height: 450px;
+    background: linear-gradient(222.37deg, rgba(96, 57, 255, 0) 2.81%, rgba(96, 57, 255, 0.3) 85.87%);
+
+    @include laptops() {
+        width: 500px;
+        height:250px;
+       }
+    @include tablets() {
+        width: 300px;
+        height:150px;
+       }
+}
+
+.ellipse2{
+    left: -18%;
+    bottom: 0;
+    border-radius: 50%;
+    transform: rotate(-16deg);
+    position: absolute;
+    width: 700px;
+    height: 450px;
+    background: linear-gradient(227.7deg, rgba(96, 57, 255, 0) 20.85%, rgba(96, 57, 255, 0.2) 95.6%);
+
+    @include laptops() {
+        width: 500px;
+        height:250px;
+       }
+    @include tablets() {
+        width: 300px;
+        height:150px;
+       }
+}
